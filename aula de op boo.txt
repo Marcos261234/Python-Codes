@@ -1,0 +1,87 @@
+Funções e portas Logicas                                             + representa função OU
+                                                                                        x representa Função E
+											
+											
+Função E
+
+Teremos resultado 1 se ambas as variáveis correspondem a 1
+
+tabela verdade
+
+a \ b
+0   1=0
+1   0=0
+0   0=0
+1   1=1
+
+
+representação
+
+A. . B
+
+Porta logica
+	
+------------------ooooo\
+.                 E             |
+.                 E             |
+------------------ooooO/
+
+
+Função ou
+
+Teremos resultado I, se pelo menos uma das VARIAVEIS
+ correspondem a 1 
+
+a \ b=S
+0   1=1
+1   0=1
+0  0=0
+1    1=1
+
+representação
+
+A+B
+
+Porta logica
+	
+------------------ooooo\
+.                 ou         |
+.                 ou         |
+------------------ooooO/
+
+Função not
+
+A = 0
+_
+A = 1
+
+Função E/noT
+
+Executa a função E,
+posteriormente inverte o resultado
+
+ Tabela Verdade
+
+a  \  b
+0    0
+1     0
+0    1
+1     1
+
+Representação
+
+___
+A . B
+
+Porta logica
+
+------------------ooooo\
+.                 	        |
+.        	       	        |
+------------------ooooO/
+
+
+FUNÇÃO OU\nOT
+
+			
+
